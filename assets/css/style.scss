@@ -7,3 +7,6 @@
 header h1 {
   display: none;
 }
+
+/* Hide the GitHub profile link */
+footer a[href^="https://github.com/"] { display: none; }
