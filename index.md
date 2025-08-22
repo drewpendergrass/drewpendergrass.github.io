@@ -5,7 +5,20 @@ title: Home
 
 # CHEEREIO
 
-CHEEREIO is a free, flexible, open-source software tool that can be used to estimate emissions of various pollutants using observations from a variety of platforms, including satellites. CHEEREIO users have published work using the tool to track global methane emissions, monitor carbon monixide from wildfires, and diagnose drivers of methane emissions growth in China.
+CHEEREIO is a free, flexible, open-source software tool that can be used to **estimate emissions of various pollutants** using observations from a variety of platforms, including satellites and surface monitors. 
+
+CHEEREIO users have published work using the tool to track **global methane emissions**, monitor **carbon monixide from wildfires**, and diagnose drivers of **methane emissions growth in China**.
+
+## Code and documentation
+
+CHEEREIO code is freely available from our [Github](https://https://github.com/drewpendergrass/CHEEREIO) repository. 
+
+A high-level overview and demo of the software is given in our [model description paper](https://doi.org/10.5194/gmd-16-4793-2023). 
+
+An *extensive* manual for CHEEREIO is provided in our [online documentation](https://cheereio.readthedocs.io). 
+
+For support, please open a [Github issue](https://github.com/drewpendergrass/CHEEREIO/issues) so that all users can see the solution. You can also email the lead developer, Drew Pendergrass, at andrew.pendergrass [at] duke [dot] edu. Feel free also to inquire about whether your application is a good fit.
+
 
 ## What does CHEEREIO do?
 
@@ -17,9 +30,11 @@ CHEEREIO uses the localized ensemble transform Kalman filter (LETKF) to calculat
 
 ## Why use CHEEREIO?
 
-CHEEREIO is a tool for chemical data assimilation characterized by its flexibility. It can assimilate any kind of observation (satellite, surface, or aircraft) for any species in any configuration of GEOS-Chem, applying updates to both emissions scaling factors and chemical concentrations. CHEEREIO allows for wide flexibility in what can be assimilated, and for example allows for the user to (1) update observations at multiple time points in the assimilation window (e.g. hourly data updates for a daily window), and (2) assimilate observations of derived quantities such as PM2.5 or AOD. Many different kinds of observations can be used at once to update a family of species. For example, one might want to use NO2 satellite and surface data, SO2 satellite and surface data, NH3 satellite data, AOD, and surface PM2.5 to update emissions and concentrations of NOx, SO2, and NH3 . Whether applying this sort of update in a small **nested region** or for a **global simulation**, CHEEREIO can be configured from **a single JSON settings file to support just about any kind of chemical data assimilation problem: whether it’s multi-species, multi-platform, linear or non-linear.**
+CHEEREIO is a tool for chemical data assimilation characterized by its flexibility. It can assimilate any kind of observation (satellite, surface, or aircraft) for any species in any configuration of GEOS-Chem, applying updates to both emissions scaling factors and chemical concentrations. CHEEREIO allows for wide flexibility in what can be assimilated, and for example allows for the user to (1) update observations at multiple time points in the assimilation window (e.g. hourly data updates for a daily window), and (2) assimilate observations of derived quantities such as PM<sub>2.5</sub> or AOD. Many different kinds of observations can be used at once to update a family of species. For example, one might want to use NO<sub>2</sub> satellite and surface data, SO<sub>2</sub> satellite and surface data, NH3 satellite data, AOD, and surface PM<sub>2.5</sub> to update emissions and concentrations of NO<sub>x</sub>, SO<sub>2</sub>, and NH<sub>3</sub>. Whether applying this sort of update in a small **nested region** or for a **global simulation**, CHEEREIO can be configured from **a single JSON settings file to support just about any kind of chemical data assimilation problem: whether it’s multi-species, multi-platform, linear or non-linear.**
 
 Users can easily extend to CHEEREIO to support new observational platforms without modifying CHEEREIO or GEOS-Chem source code. Instead, all users need to do is write a new class inheriting from the ``Observation_Operators`` template supplied with CHEEREIO. CHEEREIO allows users to go from idea to a working data assimilation demo in days, rather than months (or years).
+
+Because CHEEREIO involves running an ensemble of GEOS-Chem simulations, it can only be run on a computational cluster. Hardware requirements are substantial but not prohibitive (I hope). For my [global methane inversion](https://doi.org/10.5194/egusphere-2025-1554), I used 48 cores. 
 
 ![Infographic on creating a CHEEREIO simulation](/assets/customization-1536x690.png)
 
