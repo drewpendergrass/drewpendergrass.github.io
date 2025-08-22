@@ -5,3 +5,5 @@ logo: /assets/transparent_cheereio_logo.png
 github_username:
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+sass:
+  style: compressed

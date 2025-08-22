@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Hide the site title */
+header h1 {
+  display: none;
+}
