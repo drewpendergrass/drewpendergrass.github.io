@@ -2,5 +2,6 @@ remote_theme: pages-themes/minimal@v0.2.0
 title: CHEEREIO
 description: Free software for emission quantification
 logo: /assets/transparent_cheereio_logo.png
+github_username:
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
