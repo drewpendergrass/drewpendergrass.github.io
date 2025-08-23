@@ -38,29 +38,9 @@ Users can easily extend to CHEEREIO to support new observational platforms witho
 
 Because CHEEREIO involves running an ensemble of GEOS-Chem simulations, it can only be run on a computational cluster. Hardware requirements are substantial but not prohibitive. For my [global methane inversion](https://doi.org/10.5194/egusphere-2025-1554), I used 48 cores. 
 
+For a list of all papers using CHEEREIO, including recommended citations for users, visit the [citations](https://cheereio.readthedocs.io/en/latest/citations.html) page of the documentation
+
 ![Infographic on creating a CHEEREIO simulation](/assets/customization-1536x690.png)
-
-## Citations
-
-All CHEEREIO users should cite the original CHEEREIO paper in any publication:
-
-Pendergrass, D. C., Jacob, D. J., Nesser, H., Varon, D. J., Sulprizio, M., Miyazaki, K., & Bowman, K. W. (2023). CHEEREIO 1.0: A versatile and user-friendly ensemble-based chemical data assimilation and emissions inversion platform for the GEOS-Chem chemical transport model. Geoscientific Model Development, 16(16), 4793–4810. https://doi.org/10.5194/gmd-16-4793-2023
-
-All CHEEREIO users should also cite the original LETKF paper in any publication (and read before using):
-
-Hunt, B. R., Kostelich, E. J., & Szunyogh, I. (2007). Efficient data assimilation for spatiotemporal chaos: A local ensemble transform Kalman filter. Physica D: Nonlinear Phenomena, 230(1), 112–126. https://doi.org/10.1016/j.physd.2006.11.008
-
-CHEEREIO users that use TCCON or TROPOMI CO (version 1.4+) should cite the following paper:
-
-Voshtani, S., Jones, D. B. A., Wunch, D., Pendergrass, D. C., Wennberg, P. O., Pollard, D. F., Morino, I., Ohyama, H., Deutscher, N. M., Hase, F., Sussmann, R., Weidmann, D., Kivi, R., García, O., Té, Y., Chen, J., Anderson, K., Stevens, R., Kondragunta, S., … Murata, I. (2025). Quantifying CO emissions from boreal wildfires by assimilating TROPOMI and TCCON observations. EGUsphere, 1–60. https://doi.org/10.5194/egusphere-2025-858
-
-CHEEREIO users that use TROPOMI CH4, lognormal errors, or ObsPack should cite the following paper:
-
-Pendergrass, D. C., Jacob, D. J., Balasus, N., Estrada, L., Varon, D. J., East, J. D., He, M., Mooring, T. A., Penn, E., Nesser, H., & Worden, J. R. (2025). Trends and seasonality of 2019&ndash;2023 global methane emissions inferred from a localized ensemble transform Kalman filter (CHEEREIO v1.3.1) applied to TROPOMI satellite observations. EGUsphere, 1–26. https://doi.org/10.5194/egusphere-2025-1554
-
-### Other papers using CHEEREIO
-
-Li, Y, D. C. Pendergrass, D. J. Jacob, Y. Tang, J. Qiu, and B. Zheng. Drivers of methane emissions regrowth in China after 2019. *In prep*
 
 ## Support
 
