@@ -17,7 +17,9 @@ A high-level overview and demo of the software is given in our [model descriptio
 
 An *extensive* manual for CHEEREIO is provided in our [online documentation](https://cheereio.readthedocs.io). 
 
-For support, please open a [Github issue](https://github.com/drewpendergrass/CHEEREIO/issues) so that all users can see the solution. You can also email the lead developer, Drew Pendergrass, at andrew.pendergrass [at] duke [dot] edu. Feel free also to inquire about whether your application is a good fit.
+To get started with CHEEEREIO, you can read my [slides](http://drewpendergrass.com/2024_06_10_pendergrass_cheereio_IGC_clinic.pptx) from the 2024 International GEOS-Chem Meeting Clinic.
+
+For support, please open a [Github issue](https://github.com/drewpendergrass/CHEEREIO/issues) so that all users can see the solution. You can also email the lead developer, Drew Pendergrass, at andrew.pendergrass [at] duke [dot] edu. Feel free also to inquire about whether CHEEREIO is a good fit for your project.
 
 
 ## What does CHEEREIO do?
@@ -34,7 +36,7 @@ CHEEREIO is a tool for chemical data assimilation characterized by its flexibili
 
 Users can easily extend to CHEEREIO to support new observational platforms without modifying CHEEREIO or GEOS-Chem source code. Instead, all users need to do is write a new class inheriting from the ``Observation_Operators`` template supplied with CHEEREIO. CHEEREIO allows users to go from idea to a working data assimilation demo in days, rather than months (or years).
 
-Because CHEEREIO involves running an ensemble of GEOS-Chem simulations, it can only be run on a computational cluster. Hardware requirements are substantial but not prohibitive (I hope). For my [global methane inversion](https://doi.org/10.5194/egusphere-2025-1554), I used 48 cores. 
+Because CHEEREIO involves running an ensemble of GEOS-Chem simulations, it can only be run on a computational cluster. Hardware requirements are substantial but not prohibitive. For my [global methane inversion](https://doi.org/10.5194/egusphere-2025-1554), I used 48 cores. 
 
 ![Infographic on creating a CHEEREIO simulation](/assets/customization-1536x690.png)
 
