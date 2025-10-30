@@ -7,7 +7,7 @@ title: Home
 
 CHEEREIO is a free, flexible, open-source software tool that can be used to **estimate emissions of various pollutants** using observations from a variety of platforms, including satellites and surface monitors. 
 
-CHEEREIO users have published work using the tool to track **global methane emissions**, monitor **carbon monixide from wildfires**, and diagnose drivers of **methane emissions growth in China**.
+CHEEREIO users have published work using the tool to track **global methane emissions**, monitor **carbon monoxide from wildfires**, and diagnose drivers of **methane emissions growth in China**.
 
 ## Code and documentation
 
