@@ -11,13 +11,15 @@ CHEEREIO users have published work using the tool to track **global methane emis
 
 ## Code and documentation
 
-CHEEREIO code is freely available from our [Github](https://https://github.com/drewpendergrass/CHEEREIO) repository. 
+CHEEREIO code is freely available from our [Github](https://https://github.com/drewpendergrass/CHEEREIO) repository.
 
 A high-level overview and demo of the software is given in our [model description paper](https://doi.org/10.5194/gmd-16-4793-2023). 
 
 An *extensive* manual for CHEEREIO is provided in our [online documentation](https://cheereio.readthedocs.io). 
 
 To get started with CHEEEREIO, you can read my [slides](http://drewpendergrass.com/2024_06_10_pendergrass_cheereio_IGC_clinic.pptx) from the 2024 International GEOS-Chem Meeting Clinic.
+
+For a list of all papers using CHEEREIO, including recommended citations for users, visit the [citations](https://cheereio.readthedocs.io/en/latest/citations.html) page of the documentation.
 
 For support, please open a [Github issue](https://github.com/drewpendergrass/CHEEREIO/issues) so that all users can see the solution. You can also email the lead developer, Drew Pendergrass, at andrew.pendergrass [at] duke [dot] edu. Feel free also to inquire about whether CHEEREIO is a good fit for your project.
 
