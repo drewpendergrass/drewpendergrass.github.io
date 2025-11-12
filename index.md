@@ -11,7 +11,7 @@ CHEEREIO users have published work using the tool to track **global methane emis
 
 ## Code and documentation
 
-CHEEREIO code is freely available from our [Github](https://https://github.com/drewpendergrass/CHEEREIO) repository.
+CHEEREIO code is freely available from our [Github](https://github.com/drewpendergrass/CHEEREIO) repository.
 
 A high-level overview and demo of the software is given in our [model description paper](https://doi.org/10.5194/gmd-16-4793-2023). 
 
@@ -46,6 +46,8 @@ For a list of all papers using CHEEREIO, including recommended citations for use
 
 ## Support
 
-CHEEREIO has been supported in the past by the NASA Carbon Monitoring System (grant no. 80NSSC21K1057) and an NSF Graduate Research Fellowship Program (GRFP) grant to Drew Pendergrass. This material is based upon work supported by the National Science Foundation under Award No. 2516898.
+CHEEREIO's development is currently supported by the US National Science Foundation under Award No. 2516898. 
 
-Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+CHEEREIO has been supported in the past by the NASA Carbon Monitoring System (grant no. 80NSSC21K1057) and an NSF Graduate Research Fellowship Program (GRFP) grant to Drew Pendergrass. 
+
+This material is based upon work supported by the National Science Foundation under Award No. 2516898. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
