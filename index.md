@@ -17,7 +17,7 @@ A high-level overview and demo of the software is given in our [model descriptio
 
 An *extensive* manual for CHEEREIO is provided in our [online documentation](https://cheereio.readthedocs.io). 
 
-To get started with CHEEEREIO, you can consult my [slides](http://drewpendergrass.com/2024_06_10_pendergrass_cheereio_IGC_clinic.pptx) from the 2024 or 2026 International GEOS-Chem Meeting Clinics.
+To get started with CHEEEREIO, you can consult my [slides](http://drewpendergrass.com/presentations#CHEEREIO) from the 2024 or 2026 International GEOS-Chem Meeting Clinics.
 
 For a list of all papers using CHEEREIO, including recommended citations for users, visit the [citations](https://cheereio.readthedocs.io/en/latest/citations.html) page of the documentation.
 
