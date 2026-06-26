@@ -42,7 +42,7 @@ Because CHEEREIO involves running an ensemble of GEOS-Chem simulations, it can o
 
 For a list of all papers using CHEEREIO, including recommended citations for users, visit the [citations](https://cheereio.readthedocs.io/en/latest/citations.html) page of the documentation
 
-![Infographic on creating a CHEEREIO simulation](/assets/customization-1536x690.png)
+![Infographic on creating a CHEEREIO simulation](/assets/cheereio_model_diagram.png)
 
 ## Support
 
